@@ -50,8 +50,8 @@
         }
         
         .hero-section {
-            height: 100vh;
             min-height: 100vh;
+            height: auto;
             background-image: url('Mask Group 1.svg');
             background-size: cover;
             background-position: center;
@@ -867,24 +867,25 @@
         }
         
         /* Extra small screens - prevent footer cutoff */
-        @media (max-width: 400px) and (max-height: 700px) {
+        @media (max-width: 400px) {
             .hero-section {
-                padding-bottom: 40px;
-                min-height: 100vh;
+                padding-bottom: 60px;
+                min-height: auto;
+                height: auto;
             }
             
             .content-left {
-                padding: 32px 20px 60px 20px;
+                padding: 32px 20px 80px 20px;
             }
             
             .hero-footer {
                 margin-top: 20px;
                 padding-top: 20px;
-                padding-bottom: 20px;
+                padding-bottom: 30px;
             }
             
             .logo-container {
-                margin-bottom: 60px;
+                margin-bottom: 50px;
             }
             
             .main-heading {
@@ -902,24 +903,25 @@
         }
         
         /* Very small screens - ensure footer visibility */
-        @media (max-width: 360px) and (max-height: 700px) {
+        @media (max-width: 360px) {
             .hero-section {
-                padding-bottom: 50px;
-                min-height: 100vh;
+                padding-bottom: 80px;
+                min-height: auto;
+                height: auto;
             }
             
             .content-left {
-                padding: 24px 16px 80px 16px;
+                padding: 24px 16px 100px 16px;
             }
             
             .hero-footer {
                 margin-top: 15px;
                 padding-top: 15px;
-                padding-bottom: 25px;
+                padding-bottom: 40px;
             }
             
             .logo-container {
-                margin-bottom: 50px;
+                margin-bottom: 40px;
             }
             
             .main-heading {
@@ -973,7 +975,7 @@
             
             <!-- CTA Button -->
             <div class="cta-section">
-                <a href="https://aspengrovesolutions-dev.auth0.com/login?state=hKFo2SBFbmZjOGpOWlQ5SDNzNV9jOFAyNEVpdFduZy1MNVI4caFupWxvZ2luo3RpZNkgM2pObGNmVmlqTnFrQkpLTmdpU2xteW5sWUpnbmhzTWejY2lk2SBhbXU1WVdMWEh3VDVvZ3lveWlUcGhJeTBsQXBvR3l1ag&client=amu5YWLXHwT5ogyoyiTphIy0lApoGyuj&protocol=oauth2&redirect_uri=https%3A%2F%2Fipropertyags-agspod1.qa.aspengroveinc.com%2FLibrary%2FSecurity%2Fcallback.aspx&response_type=code%20id_token%20token&scope=openid%20profile%20email%20offline_access&response_mode=form_post&nonce=638917933411616488.MTkzOWE3ZTQtY2Q4MS00Yjc2LWJhYjYtNjMzMzU5NzBlNjA1YTQzMzI3YjItNjRjMS00YzY1LTgyM2ItYzA3MzljNzFhMTgx&audience=http%3A%2F%2Flegacy-platform-services.api.aspengroveinc.com&agsReferrer=bordbia&x-client-SKU=ID_NET461&x-client-ver=5.6.0.0" 
+                <a href="https://aspengrovesolutions-dev.auth0.com/login?state=hKFo2SBBS2htaDJhVjhoZW5kV2t2WjR1anZiZWRiZ0UtYWRwM6FupWxvZ2luo3RpZNkgUlE2cTEwZVdfdGM5eGFDd0lrTEExUWtGQ1lwdHhNSFmjY2lk2SBhbXU1WVdMWEh3VDVvZ3lveWlUcGhJeTBsQXBvR3l1ag&client=amu5YWLXHwT5ogyoyiTphIy0lApoGyuj&protocol=oauth2&redirect_uri=https%3A%2F%2Fipropertyags-agspod1.qa.aspengroveinc.com%2FLibrary%2FSecurity%2Fcallback.aspx&response_type=code%20id_token%20token&scope=openid%20profile%20email%20offline_access&response_mode=form_post&nonce=638918058175730368.MTFlNzM2YmQtNDhlYi00MzA2LWExNGUtOWUwMTMwNGIwZDNiNGUwMGJhZjUtNjJhYi00ODJkLWE5OGQtZDA2OTQ2YjRiNDBl&audience=http%3A%2F%2Flegacy-platform-services.api.aspengroveinc.com&agsReferrer=bordbia&x-client-SKU=ID_NET461&x-client-ver=5.6.0.0" 
                    class="btn-primary-cta" target="_blank" rel="noopener noreferrer">
                     LOGIN
                 </a>
